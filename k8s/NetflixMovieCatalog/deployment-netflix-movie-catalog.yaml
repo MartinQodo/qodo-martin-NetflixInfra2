@@ -17,7 +17,7 @@ spec:
           app: netflix-movie-catalog
     spec:
       containers:
-      - name: server
+      - name: netflix-movie-catalog
         image: alonithuji/netflix-movie-catalog:0.0.1
 ---
 apiVersion: v1
